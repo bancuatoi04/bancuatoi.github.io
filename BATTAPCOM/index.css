@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+	padding: 0;
+}
+#wapper{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+header{
+	min-width: 100%;
+	height: 140px;
+}
+.logo{
+	float: left;
+	width: 40%;
+}
+.logo h1{
+	padding-top: 80px;
+	font-size: 30px;
+	font-size: 150%;
+	float: right;
+	letter-spacing: 10px;
+}
+.logo a{
+	text-decoration: none;
+	color: black;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.menu ul{
+    list-style: none;
+    padding-top: 78px;
+    margin-right: auto;
+    padding-left: 70px;
+}
+.menu ul li{
+	display: inline-block;
+	width: 160px;
+	font-size: 80%;
+	position: relative;
+	text-align: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+	margin-left: -60px;
+	margin-top: 5px;
+	padding: 10px;
+	border-color: white;
+	background: white;
+	position: relative;
+	border-radius: 20px;
+}
+.menu ul li ul{
+	position: absolute;
+	visibility: hidden;
+	overflow: hidden;
+	height: 0px;
+	transition: all 0.2s linear;
+	left:-10px;
+	top:-50px;
+	text-align: center;
+}
+.menu li:hover ul{
+	visibility: visible;
+	height: 320px;
+}
+.im{
+	float: left;
+	width: 40%;
+	height: 600px;
+}
+.im1{
+    width: 49%;
+    background-color: #FAF8F4;
+	height: 48%;
+	float: left;
+	margin-right:1%;
+	margin-bottom: 1%;
+	transition-duration: 1s;
+}
+.im1:hover img{
+	transform: scale(1.2);
+}
+.im1 img{
+	transition-duration: 1S;
+}
+.im2{
+    width: 49%;
+    background-color: #FAF8F4;
+	height: 48%;
+	float: left;
+	margin-right:1%;
+	margin-bottom: 1%;
+	transition-duration: 1s;
+}
+.im2:hover img{
+	transform: scale(1.2);
+}
+.im2 img{
+	transition-duration: 1S;
+}
+.im3{
+    width: 49%;
+    background-color: #FAF8F4;
+	height: 49%;
+	float: left;
+	margin-right:1%;
+	transition-duration: 1s;
+}
+.im3:hover img{
+	transform: scale(1.2);
+}
+.im3 img{
+	transition-duration: 1S;
+}
+.im4{
+    width: 49%;
+    background-color: #FAF8F4;
+	height: 49%;
+	float: left;
+	margin-right:1%;
+	transition-duration: 1s;
+}
+.im4:hover img{
+	transform: scale(1.2);
+}
+.im4 img{
+	transition-duration: 1S;
+}
+.im img{
+	padding-left: 58px;
+	padding-top: 60px;
+	
+}
+.cl{
+	background: #776865;
+	height: 600px;
+	width: 60%;
+	float: right;
+}
+.img{
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img img{
+	width: 100%;
+	padding-top: 150px;
+}
+.cl h1{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	letter-spacing: 5px;
+	line-height: 40px;
+}
+.cl h4{
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing: 5px;
+}
+h1{
+	font-family: 'Poiret One', cursive;
+}
+h4{
+	font-family: 'Poiret One', cursive;
+}
+.buttonshop{
+	height: 35px;
+	width: 200px;	
+	border-style: solid;
+    border-color: white;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 20px;
+}
+.buttonshop p{
+	text-align: center;
+	padding-top: 8px;
+	color: white;
+}
+.buttonshop a{
+	text-decoration: none;
+	color: white;
+}
+.ban{
+	background: #CBA794;
+	width: 100%;
+	height: 350px;
+	float: left;
+}
+.uy{
+	float: left;
+	width: 50%;
+}
+.uy h2{
+	font-family: 'Poiret One', cursive;
+	padding-left: 300px;
+	padding-top: 90px;
+	letter-spacing: 5px;
+}
+.uy p{
+	padding-left: 300px;
+	padding-top: 20px;
+	font-family: 'Inconsolata', monospace;
+    letter-spacing: 5px;
+	line-height: 25px;
+}
+.uy h3{
+	font-family: 'Poiret One', cursive;
+	padding-left: 300px;
+	padding-top: 20px;
+	color:white;
+	letter-spacing: 5px;
+}
+
+.give{
+	float: right;
+	width: 50%;	
+}
+.givebutton{	
+	height: 50px;
+	width: 250px;		
+    margin-right: auto;
+	margin-top:140px;
+	background: #FFFCFC;
+}
+.givebutton p{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 140%;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.givebutton a{
+	text-decoration: none;
+	color: black;
+}
+.givebutton:hover a{
+	color: #CBA794;
+	transition-duration: 0.7s;
+	height: 70px;
+	width: 300px;
+}
+.gan{
+	width: 100%;
+	height: 700px;
+	float: left;
+}
+.gan h1{
+	text-align: center;
+	padding-top: 100px;
+	font-size: 150%;
+	letter-spacing: 5px;
+}
+.gan p{
+	text-align: center;
+	padding-top: 30px;
+	font-family: 'Hind Guntur', sans-serif;
+    letter-spacing: 5px;
+}
+.ipad{
+	width: 100%;
+	height: 700px;
+	background: #EDDAD3;
+	float: left;	
+}
+.ipadimg{
+	float: left;
+	width: 45%;
+}
+.ipadimg img{
+	padding-top:35px;
+	padding-left: 300px;
+}
+.ipadvb{
+	width: 55%;
+	float: right;
+}
+.ipadvb h1{
+	letter-spacing: 5px;
+	padding-top:240px;
+}
+.ipadvb p{
+	letter-spacing: 5px;
+	padding-top: 25px;
+	font-family: 'Hind Guntur', sans-serif;
+}
+.iphone{
+	background: #BEAEA9;
+	width: 100%;
+	height: 760px;
+	float: left;
+}
+.iphonevb{
+	width: 60%;
+	float: left;
+}
+.iphonevb h1{
+	letter-spacing: 5px;
+	padding-top:150px;
+	padding-left: 400px;
+}
+.iphonevb p{
+	letter-spacing: 5px;
+	padding-left: 400px;
+	padding-top: 25px;
+	font-family: 'Hind Guntur', sans-serif;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.footer p{
+	text-align: center;
+	padding-top:5px;
+	font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 5px;
+}
+.footer a{
+	text-decoration: none;
+	color:black;
+}
+.footer h1{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 110%;
+	letter-spacing: 10px;
+}
+@media only screen 
+   and (max-width : 768px) {
+   /* Styles here */
+	   .logo{
+		   width: 86%;
+		   margin-left: auto;
+		   margin-right: auto;
+	   }
+	   .logo a{
+		   font-size: 1.8em;
+	   }
+	   .menu{
+	       width: 100%;
+	       float: left;
+		   padding-left: 45px;
+       }
+	   .im{
+		   width: 100%;
+	   }
+	   
+	   .cl{
+		   width: 100%;
+	   }
+	   .img{
+		   margin-left: auto;
+		   margin-right: auto;
+	   }
+	   .ban{
+		   height: auto;
+	   }
+	   .uy{
+		   width: 80%;
+		   float: none;	
+		   text-align: center;
+		   margin-left: auto;
+		   margin-right: auto;
+	   }
+	   .uy h2{
+		   padding-left: 1px;
+	       padding-top: 90px;
+	       letter-spacing: 5px;  
+	   }
+	   .uy p{
+		   padding-left: 1px;
+	       letter-spacing: 5px;
+	   }
+	   .uy h3{
+		   padding-left: 1px;
+	       letter-spacing: 5px;
+		   
+	   }
+	   .give{
+		   width: 100%;
+	   }
+	   .givebutton{
+		   margin-top: 20px;
+		   margin-bottom: 50px;
+		   float: none;
+		   margin-left: auto;
+		   margin-right: auto;
+	   }
+	   .gan{
+		   width: 100%;
+		   height: 1000px;
+	   }
+	   .ipad{
+		   height: 1070px;	
+	   }
+	   .ipadimg{
+		   width: 100%;
+	   }
+	   .ipadimg img{
+	       padding-top:35px;
+	       padding-left: 140px;
+       }
+	   .ipadvb{
+		   width: 85%;
+		   text-align: center;
+		   float: none;
+		   margin-left: auto;
+		   margin-right: auto;
+	   }
+	   .iphone{
+		   width: 100%;
+		   height: auto;
+	   }
+	   .iphonevb{
+		   width: 70%;
+		   text-align: center;
+		   float: none;
+		   margin-left: auto;
+		   margin-right: auto;
+	   }
+	   .iphonevb h1{
+	       letter-spacing: 5px;
+	       padding-top:40px;
+	       padding-left: 4px;
+       }
+	   .iphonevb h1{
+	       letter-spacing: 5px;
+	       padding-top:40px;
+	       padding-left: 4px;
+       }
+	   .iphonevb p{
+	       letter-spacing: 5px;
+	       padding-top:40px;
+	       padding-left: 4px;
+       }
+	   .footer{
+		   padding-top: 20px;
+	   }
+}
